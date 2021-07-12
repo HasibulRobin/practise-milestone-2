@@ -1,0 +1,147 @@
+/* ---------------
+font style 
+------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+    margin: 0;
+}
+/* ------------------
+main part style
+----------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+hr{
+    border: 1px solid #D1D1D1;
+    width: 807px;
+}
+
+
+/* ------------------
+top players style 
+---------------------*/
+
+.section-title{
+    padding-top: 45px;
+    color:#562EFF ;
+}
+.container{
+    margin-top: 21px;
+    border-radius: 5px;
+    width: 870px;
+    height: 679px;
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+.player{
+    display: flex;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    font-size: 18px;
+    padding-left: 16px;
+    font-weight:500;
+}
+/* --------------------
+blogs style
+----------------------- */
+.blogs{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+}
+.blog{
+    display: flex;   
+    padding-right: 46px;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog-info{
+    padding-left: 15px;
+}
+.blog-author{
+    font-size: 16px;
+    color:#9F9F9F;
+    
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+}
+/* -------------------------
+course style start
+---------------------------*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:23px;
+}
+.course{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding:14px 21px;
+}
+.course-img img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.field{
+    color:  #FFC014;
+}
+.empty{
+    color:  #AEAEAE;
+}
+/* -------------------
+nav style
+---------------------*/
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color:#562EFF;
+    height: 94px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-logo img{
+    width: 40px;
+    height: 51px;
+}
+.logo-text{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.link-text{
+    color:#FFFFFF;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
